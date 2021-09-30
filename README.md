@@ -19,7 +19,7 @@ This repository contains a small NodeJs server app as back-end.
 - run `npm run dev` to start the local `development env`.
 - run `npm run build` to build the `production env` and `npm run start` to start the build.
 - open your browser `127.0.0.1:4000/api/v1/answers` for the `get response`.
-- Use `curl` on the `terminal` to post a new answer.
+- Use `curl` on the `terminal` to post a new answer. You can copy and paste the command below.
 
     ```
       curl -X POST \
