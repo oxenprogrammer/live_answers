@@ -10,7 +10,6 @@ This repository contains a small NodeJs server app as back-end.
 - JavaScript
 - PostgreSQL
 - TypeORM
-- Docker
 - Jest
 
 ### Project Setup
