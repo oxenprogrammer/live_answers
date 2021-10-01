@@ -2,6 +2,9 @@
 
 This repository contains a small NodeJs server app as back-end.
 
+## Live Demo
+- https://murmuring-coast-31015.herokuapp.com/api/v1/answers
+
 ### Main Technology Used
 - Server-side Events
 - Rest API
@@ -18,7 +21,7 @@ This repository contains a small NodeJs server app as back-end.
 - run `npm i` to install the dependencies.
 - run `npm run dev` to start the local `development env`.
 - run `npm run build` to build the `production env` and `npm run start` to start the build.
-- open your browser `127.0.0.1:4000/api/v1/answers` for the `get response`.
+- open your browser `127.0.0.1:4001/api/v1/answers` for the `get response`.
 - Use `curl` on the `terminal` to post a new answer. You can copy and paste the command below.
 
     ```
