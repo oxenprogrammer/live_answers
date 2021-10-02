@@ -3,7 +3,9 @@
 This repository contains a small NodeJs server app as back-end.
 
 ## Live Demo
-- https://murmuring-coast-31015.herokuapp.com/api/v1/answers
+[Home page](https://murmuring-coast-31015.herokuapp.com)
+
+[Answer List](https://murmuring-coast-31015.herokuapp.com/api/v1/answers)
 
 ### Main Technology Used
 - Server-side Events
@@ -14,6 +16,12 @@ This repository contains a small NodeJs server app as back-end.
 - PostgreSQL
 - TypeORM
 - Jest
+
+## Prerequisites
+- node
+- PostgreSQL
+
+The Database setup uses the default `psql` but you can set your own using `process.env` as seen in the `src/config/database.ts`. 
 
 ### Project Setup
 - `clone` the repo.
