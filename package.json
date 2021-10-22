@@ -1,13 +1,13 @@
 {
   "name": "live-answers",
   "version": "1.0.0",
-  "description": "",
+  "description": "live answers",
   "main": "src/index.ts",
   "scripts": {
     "start": "node dist/index.js",
     "test": "jest",
     "build": "tsc",
-    "dev": "concurrently \"nodemon\" \"nodemon -x spec\""
+    "dev": "concurrently \"nodemon\""
   },
   "nodemonConfig": {
     "watch": [
@@ -17,7 +17,7 @@
     "exec": "ts-node src/index.ts"
   },
   "keywords": [],
-  "author": "",
+  "author": "emanuel okello",
   "license": "ISC",
   "devDependencies": {
     "@types/cors": "^2.8.12",
