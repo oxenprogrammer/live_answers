@@ -8,13 +8,13 @@ This repository contains a small NodeJs server app as back-end.
 [Answer List](https://murmuring-coast-31015.herokuapp.com/api/v1/answers)
 
 ### Main Technology Used
-- Server-side Events
+- Server-sent Events
 - Rest API
 - NodeJs
 - TypeScript
 - JavaScript
 - PostgreSQL
-- TypeORM
+- TypeORM (Data Mapper Pattern).
 - Jest
 
 ## Prerequisites
